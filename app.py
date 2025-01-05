@@ -25,6 +25,7 @@ janela = Tk();
 janela.title("Advinhe o País");
 janela.geometry("350x310");
 janela.configure(bg=co1)
+janela.resizable(height=False, width=False);
 
 # Separator entre Frames
 ttk.Separator(janela, orient=HORIZONTAL).grid(row=0, columnspan=1, padx=172);
